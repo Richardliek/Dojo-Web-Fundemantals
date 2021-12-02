@@ -1,0 +1,186 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    ;
+}
+
+body { 
+    background-color: white;
+    font-family: 'roboto', sans-serif;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.nav {
+    margin: 0 auto;
+    width: 1090px;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+    
+    
+}
+
+.navlinks {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    float: left;
+    
+}
+
+.nav a {
+    color: white;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+
+
+.button {
+    padding: 10px 20px;
+    text-align: end;
+    background-color: skyblue;
+    border: none;
+    text-decoration: none;
+    font-size: 16px;
+} 
+
+/* .flex-container {
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    display: flex;
+} */
+
+.usercard {
+    height: fit-content;
+    width: 100;
+    background-color: white;
+    border: 2px solid silver;
+    /* overflow: hidden; */
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.container {
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.col, .col-2 {
+    margin: 10px;
+    padding: 10px;
+}
+
+.col-2 {
+    /* display: inline-block; */
+    /* margin: 0 auto; */
+    margin-top: 10px;
+}
+
+.card {
+    height: fit-content;
+    width: 100;
+    background-color: white;
+    border: 2px solid silver;
+    overflow: hidden;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.cardheader{
+    background-color: skyblue;
+    height: 50px;
+    margin-left: 0px;
+    padding: 10px;
+}
+
+.cardbody {
+    padding: 20px;
+}
+
+.cardbody h1,
+.cardbody h2,
+.cardbody h3,
+.cardbody p {
+    margin: 25px;
+}
+
+.icon-m {
+    width: 52px;
+    height: 52px;
+    border-radius: 50px;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
+.icon-s {
+    height: 20px;
+}
+
+.header {
+    background-color:grey;
+    color: white;
+    align-items: center;
+    padding: 20px;
+    font-size: 24px;
+    box-sizing: content-box;
+    height: 20px;
+}
+
+.avatar {
+    border-radius: 50%;
+    background-color: white;
+    height: 40px;
+    width: 40px;
+}
+
+.user {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.start, .end {
+    display: flex;
+    align-items: center;
+}
+
+.educationdate {
+    font-size: 20px;
+    color: lightgray;
+}
+
+.footer {
+    padding: 15px;
+    border-top: 2px solid silver;
+    text-align: center;
+}
+
+.connectionrequest {
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    height: 25px;
+    padding: 0 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    
+}
+
+.connection {
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    height: 25px;
+    padding: 0 10px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+

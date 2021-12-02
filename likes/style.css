@@ -1,0 +1,68 @@
+
+.container {
+    width: 950px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+
+}
+
+.navbar {
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+}
+
+#header {
+    text-align: center;
+}
+
+.usercard {
+    border: 2px solid black;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    padding: 20px 20px;
+    height: 200px;
+}
+
+#avatar {
+    height: 100px;
+    weight: 100px;
+}
+
+.user {
+    height: 200px;
+    width: 400px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding: 10px 30px;
+    align-items: center;
+}
+
+.user span {
+    display: inline-flex;
+}
+
+.post, .likes {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.likes {
+    float: right;
+    justify-content: space-between;
+}
+
+.likes button {
+    background-color: yellow;
+    color: black;
+    margin-left: 10px;
+}
+
+.likestotal {
+    margin-left: 10px;
+    align-items: center;
+}

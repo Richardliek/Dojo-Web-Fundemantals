@@ -1,0 +1,43 @@
+.containter {
+    width: 950px;
+    background-color: blue;
+    margin: 20px;
+    height: 1000px;
+}
+
+h1, p {
+    text-align: center;
+}
+
+.blue {
+    height: 250px;
+    with 450px;
+    display: flex;
+    background-color: lightblue;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 20px;
+}
+
+.pink {
+    height: 250px;
+    with 450px;
+    display: flex;
+    background-color: palevioletred;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 20px;
+}
+
+.white {
+    height: 250px;
+    with 450px;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin: 10px;
+    padding: 20px;
+}

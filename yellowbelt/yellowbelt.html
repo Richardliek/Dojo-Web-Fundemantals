@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Yellow Belt</title>
+</head>
+<body>
+    <!-- navigation bar -->
+    <div id="navbar">
+        <div class="flex-nav">
+            <h1>Just<Span id="dessert">Dessert</Span></h1>
+            <ul>
+                <li><button id="join" onclick="hide(this)">Join</button></li>
+                <li><button id="login">Login</button></li>
+            </ul>
+        </div>
+    </div>
+    <!-- heading -->
+    <div id="header">
+        <form>
+            <input type="text" name="search" placeholder="SEARCH" id="searchbar">
+            <input type="submit" value="GO" id="searchbutton" onclick="search(event)">
+        </form>
+        <div class="headericon">
+            <img src="img/cake.png" alt="cake" id="cake">
+            <p>Cake</p>
+        </div>
+        <div class="headericon">
+            <img src="img/ice-cream.png" alt="icecream" id="icecream">
+            <p>Ice Cream</p>
+        </div>
+        <div class="headericon">
+            <img src="img/cookie.png" alt="cookie" id="cookie">
+            <p>Cookies</p>
+        </div>
+        <div class="headericon">
+            <img src="img/pie.png" alt="">
+            <p>Pie</p>
+        </div>
+    </div>
+    <!-- Main body -->
+    <div class="container">
+         <!-- left column -->
+        <div class="col">
+            <div class="mainbody">
+            <h1>Recipe of the Day</h1>
+                <div id="main">
+                    <img src="img/orange-tart.jpg" alt="orange-tart" id="orange-tart">
+                    <div class="description">
+                        <div>
+                            <p>Orange Tea Jelly Tart</p>
+                            <p>by: <a href="#">Yuripiano</a></p>
+                        </div>
+                        <div class="like">
+                            <button onclick="addlikes(1)" class="likebutton">
+                                <img src="img/heart.png" alt="heart" onclick="likes" class="heart">
+                            </button>
+                            <span id="1">0</span>
+                        </div>
+                    </div>
+                    <div id="recipe">
+                        <a href="#" >See Full Recipe</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- right column -->
+        <div class="col2">
+            <div class="sidebar">
+                <h2>Recommended for you:</h2>
+                <div id="sidecontent">
+                    <img src="img/macarons.jpg" alt="macarons" id="macaron">
+                    <div class="description">
+                        <div>
+                            <p>Macarons</p>
+                            <p>by: <a href="#">EmilieW</a></p>
+                        </div>
+                        <div class="like">
+                            <button onclick="addlikes(2)" class="likebutton">
+                                <img src="img/heart.png" alt="heart" onclick="likes" class="heart">
+                            </button>
+                            <span id="2">0</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img src="img/creme-brulee.jpg" alt="macarons" id="creme">
+                    <div class="description">
+                        <div>
+                            <p>Crème brûlée</p>
+                            <p>by: <a href="#">MarisaG</a></p>
+                        </div>
+                        <div class="like">
+                            <button onclick="addlikes(3)" class="likebutton">
+                                <img src="img/heart.png" alt="heart" onclick="likes" class="heart">
+                            </button>
+                            <span id="3">0</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

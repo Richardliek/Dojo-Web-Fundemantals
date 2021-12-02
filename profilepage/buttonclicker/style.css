@@ -1,0 +1,78 @@
+.container {
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto', sans-serif;
+    border: 1px red solid;
+    display: flex;
+}
+
+#navbar {
+    background-color: grey;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0;
+
+}
+
+#searchbar {
+    width: 300px;
+    height: 30px;
+}
+
+#login {
+    height: 50px;
+    width: 100px;
+    background-color: blue;
+    box-shadow: black 2px 2px;
+    color: white;
+    font-size: 25px;
+}
+
+.ninja {
+    border: black solid 2px;
+    margin: 10px 10px;
+    padding-left: 10px;
+    height: fit-content;
+}
+
+#ninja input {
+    display: flex;
+}
+
+#ninja p {
+    margin-left: 20 px;
+}
+
+#likes {
+    background-color: greenyellow;
+    box-shadow: black 2px 2px;
+    padding: 10px 20px;
+}
+
+.col, .col-2 {
+    justify-content: space-between;
+}
+
+.col-2 {
+    float: right;
+    margin: 0;
+}
+
+#dojonary {
+    border: 2px solid black;
+    margin: 10px;
+    padding: 20px 20px;
+}
+
+#dojonary input {
+    display: flex;
+}
+
+#add {
+    background-color: green;
+    box-shadow: black 2px 2px;
+    padding: 10px 20px;
+    font-style: bold;
+}

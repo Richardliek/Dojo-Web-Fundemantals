@@ -1,0 +1,21 @@
+House Keeping
+- Schedule
+- Assignments
+- Discussion Questions
+- Participation
+
+Lecture
+- Images
+- Video 
+- Parent Child
+- Box model
+- Divs
+- Block vs inline-Block
+- Style the page 
+
+Resources
+- CSS Diner
+- Flexbox Frogy
+- Code Combat
+- Solo Learn
+- VS Code Extensions 

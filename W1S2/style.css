@@ -1,0 +1,68 @@
+#heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blanchedalmond;
+    padding: 10px;
+}
+
+.blueButtons {
+    background-color: blue;
+    color: white;
+}
+
+#articles {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h2, h3{
+    text-align: center;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+label {
+    display:block;
+    margin: 10px;
+}
+
+form {
+    border: 2px solid black;
+    width: fit-content;
+    text-align: center;
+    margin: 15px auto;
+    padding-bottom: 15px;
+    /* margin: y-axis x-axis */
+    /* margin: top right bottom left; */
+}
+
+form h3 {
+    border: 2px solid black;
+    display: inline-block;
+    padding: 5px;
+    margin-top: -20px;
+    background-color: white;
+}
+
+img {
+    width: 25%;
+}
+
+
+/* box model */
+/* #container {
+    background-color: blue;
+    padding: 15px;
+}
+
+#box {
+    background-color: red;
+    border: 2px solid pink;
+    padding: 15px;
+    margin-left: 200px;
+    width: 50px;
+    height: 50px;
+} */

@@ -1,0 +1,12 @@
+.nav{
+    background-color: grey;
+
+}
+
+.nav-title{
+    justify-content: start;
+}
+
+.nav-links{
+    justify-content: end;
+}
